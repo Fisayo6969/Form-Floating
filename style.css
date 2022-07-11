@@ -55,7 +55,9 @@ body{
 .inputBox input:focus{
     border: 1px solid #00ffff;
 }
-.inputBox:nth-child(2) input:valid,
-.inputBox:nth-child(2) input:focus{
-
+.inputBox:nth-child(2) input:focus ~ span{
+    background: #00ffff;
+    color: #1d2b3a;
+    border-radius: 2px;
+    line-height: 2em;
 }
